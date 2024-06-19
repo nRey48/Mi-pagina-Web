@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Nombre - Alquiler Temporario</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #e67e22;
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+        }
+        h1 {
+            margin-top: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        .property {
+            margin-bottom: 40px;
+        }
+        .property img {
+            width: 100%;
+            max-height: 300px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .property h2 {
+            margin-top: 10px;
+        }
+        .property p {
+            margin-top: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Tu Nombre - Alquiler Temporario</h1>
+    <p>Bienvenido a mi página web personal donde puedes encontrar nuestros servicios de alquiler temporario.</p>
+</header>
+
+<div class="container">
+    <div class="property">
+        <img src="imagen1.jpg" alt="Propiedad 1">
+        <h2>Propiedad 1</h2>
+        <p>Descripción de la propiedad 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Ubicación: Ciudad, País</p>
+    </div>
+    <div class="property">
+        <img src="imagen2.jpg" alt="Propiedad 2">
+        <h2>Propiedad 2</h2>
+        <p>Descripción de la propiedad 2. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>Ubicación: Ciudad, País</p>
+    </div>
+    <!-- Agrega más propiedades según sea necesario -->
+</div>
+
+<footer>
+    <p>&copy; 2024 Tu Nombre</p>
+</footer>
+
+</body>
+</html>
